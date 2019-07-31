@@ -1,5 +1,5 @@
 def my_each(array)
-  if 
+  if block_given?
   yield
   array
 end
