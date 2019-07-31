@@ -6,6 +6,6 @@ def my_each(array)
       i += 1 
     end
     array
-  else puts "Please provide a block, friend."
+  else return "Please provide a block, friend."
   end
 end
